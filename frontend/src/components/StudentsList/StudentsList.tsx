@@ -7,6 +7,8 @@ import Student from '../../data/data';
 const StudentsList: FC = () => {
     const [Student, setItems] = useState<Student[]>([]);
 
+    
+
     useEffect(() => {
         axios
             .get('api/main')

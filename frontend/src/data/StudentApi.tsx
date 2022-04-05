@@ -1,6 +1,8 @@
 import React, { FC } from "react";
+import { Text } from "@consta/uikit/Text";
 
 import Student from "./data";
+
 
 
 const StudentApi: FC<Student> = (props) => {
