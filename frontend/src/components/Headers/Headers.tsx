@@ -10,6 +10,12 @@ const Item1: menuItems[] = [
 
 ];
 
+const Item2: menuItems[] = [
+    { label: 'Добавить участников' },
+    { active: true },
+
+];
+
 const Headers: FC<menuItems> = (props) => {
 
     return(
@@ -26,6 +32,10 @@ const Headers: FC<menuItems> = (props) => {
 
             <HeaderModule indent="l">
                     <a href="/participants"><HeaderMenu items={Item1} /></a>
+            </HeaderModule>
+
+            <HeaderModule indent="l">
+                    <a href="add"><HeaderMenu items={Item2} /></a>
             </HeaderModule>
             </>
         }></Header>

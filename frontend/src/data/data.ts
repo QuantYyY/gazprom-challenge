@@ -1,6 +1,6 @@
 type Student = {
     id?: number;
-    name: string;
+    name?: string;
     email?: string;
     team?: string;
     link?: string;
