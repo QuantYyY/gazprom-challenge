@@ -17,7 +17,7 @@ const Students: FC<StudentsProps> = (props) => {
 
     return(
         <div>
-            <Grid cols="6">
+            <Grid cols="5">
                 {data.map((item) => (
                     <>
                         <GridItem>
