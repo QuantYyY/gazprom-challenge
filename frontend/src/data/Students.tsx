@@ -16,8 +16,7 @@ const Students: FC<StudentsProps> = (props) => {
 
 
     return(
-        <div>
-            <Grid cols="5">
+            <Grid cols="4" className="card">
                 {data.map((item) => (
                     <>
                         <GridItem>
@@ -30,7 +29,6 @@ const Students: FC<StudentsProps> = (props) => {
                 ))
                 }
             </Grid>
-        </div>
     );
 };
 

@@ -48,24 +48,24 @@ const AddStudents: FC<Student> = (props) =>{
                             value: 10,
                             message: 'Минимум 10 символов в поле ФИО'
                         }
-                } )} placeholder="Валентин Петрович" className="label"/>
+                } )} placeholder="Полное имя" className="label"/>
                 </label>
 
                 <label>
                     <Text view="primary" size="xl" className="text">Электронная почта:</Text> 
-                    <input {...register('email', {required: 'Поле Электронная почта обязательно к заполнению!'} )} placeholder="contest@gazprom.ru" className="label" />
+                    <input {...register('email', {required: 'Поле Электронная почта обязательно к заполнению!'} )} placeholder="Почта" className="label" />
                 </label>
 
                 <label>
                     <Text view="primary" size="xl" className="text">Команда:</Text>
-                    <input {...register('team')} className="label" />
+                    <input {...register('team')} className="label" placeholder="Команда" />
                 </label>
 
                 <label>
                     <Text view="primary" size="xl" className="text">Telegram:</Text>
                     <input {...register('link', 
                     {required: 'Поле Telegram обязательно к заполнению!'}
-                     )} placeholder="@gazprom" className="label" />
+                     )} placeholder="Ссылка на Telegram" className="label" />
                 </label>
 
                 

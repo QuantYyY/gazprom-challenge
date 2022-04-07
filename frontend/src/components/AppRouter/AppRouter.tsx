@@ -7,9 +7,10 @@ import AddStudents from "../AddStudents";
 
 const AppRouter: FC = () =>(
     <Routes>
+        <Route path="/add" element = {<AddStudents/>}/>
         <Route path="/" element = {<Home/>}/>
         <Route path="/participants" element = {<StudentsList/>}/>
-        <Route path="/add" element = {<AddStudents/>}/>
+        
     </Routes>
 );
 
