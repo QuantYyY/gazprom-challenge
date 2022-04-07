@@ -9,12 +9,10 @@ const StudentApi: FC<Student> = (props) => {
     
     return (
         <div className="info">
-            <p /><br /><b>Id:{props.id}</b>
-            <br /> <b>Name: </b> {props.name} 
-            <br /> <strong>Email: </strong> {props.email}
-            <br /> <strong>Team: </strong> {props.team}
-            <br /> <strong>Link: </strong> {props.link}
-            <br />
+            <Text view="ghost" lineHeight = 'l' > <strong>Name: </strong> </Text> <Text view="primary" lineHeight = 'l' > {props.name} </Text> 
+            <Text view="ghost" lineHeight = 'l' > <strong>Email: </strong> </Text> <Text view="primary" lineHeight = 'l' > {props.email} </Text>
+            <Text view="ghost" lineHeight = 'l' > <strong>Team: </strong> </Text> <Text view="primary" lineHeight = 'l' > {props.team} </Text>
+            <Text view="ghost" lineHeight = 'l' > <strong>Link: </strong> </Text> <Text view="primary" lineHeight = 'l' > {props.link} </Text>
         </div>
     );
 };
