@@ -25,7 +25,7 @@ const Headers: FC<menuItems> = (props) => {
              <HeaderModule>
                 <HeaderLogo>
                     <a href="/">
-                        <img src='static/images/Logo.png' alt="Logo" className="logo" />
+                        <img src='static/images/GLogo.svg' alt="Logo" className="logo" />
                     </a>
                 </HeaderLogo>
             </HeaderModule>

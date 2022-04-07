@@ -1,0 +1,17 @@
+.label{
+    padding: 0.5em;
+    width: 20em;
+    height: 1em; 
+    margin-top: 0.2em;
+    margin-bottom: 0.5em;
+}
+
+.btn{
+    margin-top: 0.5em;
+}
+
+.form{
+    margin-left: 1.5em;
+    margin-top: 1em;
+}
+
