@@ -11,7 +11,13 @@ const Item1: menuItems[] = [
 ];
 
 const Item2: menuItems[] = [
-    { label: 'Добавить участников' },
+    { label: 'Добавить' },
+    { active: true },
+
+];
+
+const Item3: menuItems[] = [
+    { label: 'Главная' },
     { active: true },
 
 ];
@@ -28,6 +34,10 @@ const Headers: FC<menuItems> = (props) => {
                         <img src='static/images/GLogo.svg' alt="Logo" className="logo" />
                     </a>
                 </HeaderLogo>
+            </HeaderModule>
+
+            <HeaderModule indent="l">
+                    <a href="/"><HeaderMenu items={Item3} /></a>
             </HeaderModule>
 
             <HeaderModule indent="l">
