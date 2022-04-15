@@ -6,5 +6,6 @@ urlpatterns = [
     path('', views.index),
     path('participants', views.index),
     path('add', views.index),
-    path('*', views.index)
+    path('tasks', views.index),
+    path('*', views.index),
 ]

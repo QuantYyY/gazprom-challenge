@@ -22,6 +22,12 @@ const Item3: menuItems[] = [
 
 ];
 
+const Item4: menuItems[] = [
+    { label: 'Задания' },
+    { active: true },
+
+];
+
 const Headers: FC<menuItems> = (props) => {
 
     return(
@@ -46,6 +52,10 @@ const Headers: FC<menuItems> = (props) => {
 
             <HeaderModule indent="l">
                     <a href="add"><HeaderMenu items={Item2} /></a>
+            </HeaderModule>
+            
+            <HeaderModule indent="l">
+                    <a href="tasks"><HeaderMenu items={Item4} /></a>
             </HeaderModule>
             </>
         }></Header>

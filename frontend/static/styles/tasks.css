@@ -1,0 +1,26 @@
+.tasks{
+    margin-top: 2em;
+}
+
+.cards{
+    width: 21em;
+    height: 30em;
+}
+
+.text{
+    margin-top: 1.5em;
+}
+
+.open-btn{
+    margin-bottom: 1em;
+}
+
+.close-btn{
+    margin: 1em 1em 1em 1em;
+}
+
+.modal{
+    width: 35em;
+    height: 15em;
+}
+

@@ -1,0 +1,36 @@
+
+.home{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+    width: 90em;
+}
+
+.about{
+    margin-top: 20em;
+}
+
+.about-project{
+    margin-top: 5em;
+}
+
+.span-info{
+    display: table;
+    border-bottom: 3px solid #0078d2;
+    line-height: 36px;
+    margin-bottom: 1em;
+}
+
+.anim {
+    transform: translateY(150%);
+    animation: ani 1s forwards;
+}
+  
+@keyframes ani {
+    0% {transform: translateY(150%);}
+    100% {transform: translateY(0);}
+}
+
+footer{
+    margin-top: 15em;
+}
